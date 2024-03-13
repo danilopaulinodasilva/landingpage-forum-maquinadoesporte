@@ -87,7 +87,10 @@ a:focus {
 }
 img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
+}
+.nivo-main-image {
+  height: 100% !important;
 }
 .fix {
   overflow: hidden;
@@ -426,9 +429,9 @@ ul li {
   margin: 10px 0;
   overflow: hidden;
 }
-.nivoSlider img {
+/* .nivoSlider img {
   height: 100vh !important;
-}
+} */
 /* btn-style */
 a.btn-def {
   border: 1px solid #f1f1f1;

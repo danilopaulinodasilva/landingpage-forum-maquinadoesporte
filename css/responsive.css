@@ -122,9 +122,9 @@
   .boxed-layout #sticker.stick {
     width: 970px;
   }
-  .nivoSlider img {
-    height: 650px !important;
-  }
+  /* .nivoSlider img {
+    height: 650px;
+  } */
 }
 
 /* Tablet desktop :768px. */
@@ -138,9 +138,9 @@
   .logo-menu-area {
     padding: 20px 0;
   }
-  .nivoSlider img {
-    height: 650px !important;
-  }
+  /* .nivoSlider img {
+    height: 650px;
+  } */
   .slide1-text .cap-title h1 {
     font-size: 40px;
     line-height: 40px;
@@ -284,9 +284,9 @@
   .boxed-layout #sticker.stick {
     width: 750px;
   }
-  .nivoSlider img {
-    height: 650px !important;
-  }
+  /* .nivoSlider img {
+    height: 650px;
+  } */
 }
 
 /* small mobile :320px. */
@@ -305,9 +305,6 @@
   .logo-menu-area {
     padding: 0;
     background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
-  }
-  .nivoSlider img {
-    height: auto !important;
   }
   .slide1-text {
     display: none;
@@ -516,9 +513,10 @@
   .slider-btn {
     display: inline-block;
   }
-  .nivo-caption {
-    top: 40%;
-  }
+
+  /* .nivoSlider img {
+    height: 100px !important;
+  } */
   .down-arrow {
     bottom: 15px;
   }
@@ -652,9 +650,7 @@
   .boxed-layout .ready-to-play-2 {
     height: 300px;
   }
-  .nivoSlider img {
-    height: auto !important;
-  }
+
   .header-slider-area {
     overflow: hidden;
   }
@@ -668,9 +664,9 @@
   .boxed-layout #sticker.stick {
     width: 100%;
   }
-  .nivoSlider img {
-    height: auto !important;
-  }
+  /* .nivoSlider img {
+    height: 100% !important;
+  } */
 }
 
 /* Large Mobile :480px. */
@@ -773,9 +769,49 @@
   .tab-menu-list-event ul li {
     float: left;
   }
+
+  .logo-forum {
+    margin-bottom: 20px;
+    height: 90px !important;
+  }
+
+  .slider-btn {
+    margin-top: 10px;
+  }
+
+  .event-date,
+  .event-location {
+    font-size: 1.2rem !important;
+    line-height: normal !important;
+  }
 }
 
 @media (max-width: 479px) {
+  .slide1-text {
+    display: block;
+  }
+
+  #mainSlider {
+    height: 400px;
+  }
+
+  .logo-forum {
+    margin-bottom: 20px;
+    height: 90px !important;
+  }
+
+  .nivo-caption {
+    top: 40%;
+    left: 25px;
+  }
+
+  .event-date,
+  .event-location,
+  .slider-btn {
+    font-size: 1rem !important;
+    line-height: normal !important;
+  }
+
   .happen-details {
     display: flex;
     flex-direction: column;

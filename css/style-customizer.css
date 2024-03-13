@@ -519,3 +519,7 @@ div.style-customizer .skin-teal {
   display: block;
   margin-bottom: 20px;
 }
+
+#logoForum {
+  height: 10px !important;
+}
