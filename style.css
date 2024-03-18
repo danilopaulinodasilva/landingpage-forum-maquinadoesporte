@@ -2273,6 +2273,18 @@ blockquote {
   color: #fff;
   padding: 0 20px;
 }
+#sticker.stick nav li:nth-child(6):hover {
+  background: #a70b0c none repeat scroll 0 0;
+  border-color: #a70b0c !important;
+  color: #fff;
+  padding: 0 20px;
+}
+#sticker.stick nav li:nth-child(6):active {
+  background: #a70b0c none repeat scroll 0 0;
+  border-color: #a70b0c !important;
+  color: #fff;
+  padding: 0 20px;
+}
 .mobile-menu-area {
   display: none;
 }
