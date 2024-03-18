@@ -2266,25 +2266,6 @@ blockquote {
   background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
   z-index: 999999999;
 }
-
-#sticker.stick nav li:nth-child(6) {
-  background: #a70b0c none repeat scroll 0 0;
-  border-color: #a70b0c !important;
-  color: #ffffff !important;
-  padding: 0 20px;
-}
-#sticker.stick nav li:nth-child(6):hover {
-  background: #a70b0c none repeat scroll 0 0;
-  border-color: #a70b0c !important;
-  color: #ffffff !important;
-  padding: 0 20px;
-}
-#sticker.stick nav li:nth-child(6):active {
-  background: #a70b0c none repeat scroll 0 0;
-  border-color: #a70b0c !important;
-  color: #ffffff !important;
-  padding: 0 20px;
-}
 .mobile-menu-area {
   display: none;
 }
@@ -2411,4 +2392,23 @@ blockquote {
   background: #fff none repeat scroll 0 0;
   border-color: #a70b0c;
   color: #a70b0c;
+}
+
+#sticker.stick nav li:nth-child(6) {
+  background: #a70b0c none repeat scroll 0 0;
+  border-color: #a70b0c !important;
+  color: #ffffff !important;
+  padding: 0 20px;
+}
+#sticker.stick nav li:nth-child(6):hover {
+  background: #a70b0c none repeat scroll 0 0;
+  border-color: #a70b0c !important;
+  color: #ffffff !important;
+  padding: 0 20px;
+}
+#sticker.stick nav li:nth-child(6):active {
+  background: #a70b0c none repeat scroll 0 0;
+  border-color: #a70b0c !important;
+  color: #ffffff !important;
+  padding: 0 20px;
 }
