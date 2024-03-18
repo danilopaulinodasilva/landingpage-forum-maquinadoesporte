@@ -150,21 +150,11 @@ blockquote {
 }
 
 #sticker.stick nav li:nth-child(6) a {
-  background: #a70b0c none repeat scroll 0 0;
-  border-color: #a70b0c !important;
   color: #ffffff !important;
-  padding: 0 20px;
 }
 #sticker.stick nav li:nth-child(6):hover a {
-  background: #a70b0c none repeat scroll 0 0;
-  border-color: #a70b0c !important;
   color: #ffffff !important;
-  padding: 0 20px;
 }
 #sticker.stick nav li:nth-child(6):active a {
-  background: #a70b0c none repeat scroll 0 0;
-  border-color: #a70b0c !important;
   color: #ffffff !important;
-  padding: 0 20px;
 }
--
