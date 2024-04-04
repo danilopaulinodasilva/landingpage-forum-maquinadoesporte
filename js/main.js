@@ -146,7 +146,7 @@ One Page nav
     pagination: false,
     navigation: false,
     addClassActive: true,
-    items: 4,
+    items: 7,
     itemsDesktop: [1199, 6],
     itemsDesktopSmall: [980, 5],
     itemsTablet: [768, 3],
